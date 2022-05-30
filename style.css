@@ -334,3 +334,33 @@ a{
     border-left: 20px solid rgb(16, 16, 53);
     border-top: 35px solid #fff;
 }
+
+/* about us section */
+
+.about-img{
+    display: flex;
+    transform: skewX(10deg);
+    background: #999;
+}
+
+.img-f{
+    width: 50%;
+    height: 50%; 
+}
+
+.img-s{
+    width: 50%;
+    height: 50%;
+    /* border-left: 60px solid rgb(16, 16, 53);
+    border-top: 95px solid #fff; */
+}
+
+.img-f img{
+     width: 100%;
+     height: 100%;
+}
+
+.img-s img{
+    width: 100%;
+    height: 100%;
+}
