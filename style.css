@@ -566,6 +566,8 @@ a{
 
 .footer{ 
     background-color: rgb(16, 16, 53);
+    padding: 1rem auto;
+    padding-bottom: 1rem;
 }
 
 .footer p{ 
