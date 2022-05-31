@@ -18,3 +18,37 @@ const openSearch = () => {
 xmark.addEventListener('click',closeList);
 menu.addEventListener('click', openList);
 search.addEventListener('click',openSearch); 
+
+
+var acc = document.querySelectorAll(".accordion");
+ 
+// for(let i = 0; i < acc.length; i++){
+//     //alert('benkis')
+//     // acc[i].addEventListener("click", function() {
+//     //     // this.classList.toggle("active");
+//     //     // let panel = this.nextElementSibling;
+//     //     // if(panel.style.maxHeight) {
+//     //     //     panel.style.maxHeight = null;
+//     //     // } else {
+//     //     //     panel.style.maxHeight = panel.scrollHeight + "px";
+//     //     // }
+       
+//     // });
+    
+// }
+
+acc.forEach((ac) =>  {
+      ac.addEventListener("click", function() {
+        this.classList.toggle("active");
+        let panel = this.nextElementSibling;
+        if(panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            
+        }
+       
+    });
+})
+ 
+ 
