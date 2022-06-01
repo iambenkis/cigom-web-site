@@ -582,9 +582,9 @@ a{
 }
 
 @media (min-width: 760px){
-    *{
+    /* *{
         /* color: red !important; */
-    }
+    /* } */
 
     .mylogo {
         display: inline-block;
@@ -611,7 +611,7 @@ a{
         height: 10vh; 
         display: flex;
         flex-direction: row;
-        width: 70%;
+        width: 50%;
         margin-left: 23rem;
         margin-top: .5rem;
         transition: width .5s ease-out; 
