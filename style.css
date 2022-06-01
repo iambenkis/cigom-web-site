@@ -694,6 +694,11 @@ a{
     left: 47%;
 }
 
+.news h1::before{ 
+    left: 49%;
+    
+}
+
 .products .products-header{
     margin: 0;
     padding: 0;
@@ -710,5 +715,45 @@ a{
     width: 30%;
 }
 
+.news-item {
+    display: flex; 
+    justify-content: space-between;
+} 
+.news-img {
+    min-width: 40%;
+    max-width: 70%;
+    height: 20rem;   
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.news-text {
+    margin-top: 2rem; 
+}
+
+ 
+
+.about-img {
+    display: none;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about-text h2::before{
+    left: 48%;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    width: 80%;
+}
+ 
  
 }
