@@ -54,7 +54,7 @@ a{
     cursor: pointer; 
 }
 
-.navlist li:hover{
+.navlist li a:hover{
     color: rgb(212, 175, 8); 
 }
 
@@ -575,4 +575,81 @@ a{
     font-size: 96%;
     text-align: center;
     color: #fff;
+}
+
+.mylogo{
+    display: none;
+}
+
+@media (min-width: 760px){
+    *{
+        /* color: red !important; */
+    }
+
+    .mylogo {
+        display: inline-block;
+        width: 14rem;
+        height: 5rem;
+        margin-left: 3rem;
+        padding-bottom: .5rem;
+    }
+
+    .mylogo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo{
+        display: none;
+    }
+    .navbar i{
+        display: none;
+    }
+
+    .navlist {
+        position: relative; 
+        height: 10vh; 
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin-left: 23rem;
+        margin-top: .5rem;
+        transition: width .5s ease-out; 
+        background-color: rgb(16, 16, 53);
+    }
+    .navlist ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+.navlist li a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.navlist li a:hover{
+    color: rgb(212, 175, 8); 
+}
+
+.navlist li{
+    border: none;
+    margin-right: 1rem; 
+
+}
+.navlist li a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500; 
+    text-align: justify;
+    cursor: pointer; 
+    margin-right: 2rem;
+}
+
+
+    
 }
