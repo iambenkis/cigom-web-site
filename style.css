@@ -112,7 +112,7 @@ a{
 
 .header .header-img{
     width: 100%; 
-    background-image: url(/imgs/cigom5.jpg);
+    background-image: url(./imgs/cigom5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -761,6 +761,17 @@ a{
  
 .faq {
     margin: auto 5rem;
+}
+.faq img {
+    margin-top: 2rem;
+}
+
+.faq h2::before{ 
+    left: 49%;
+}
+
+.faq h2{
+    margin-bottom: 3rem;
 }
 
 .faq h4{
