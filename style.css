@@ -581,17 +581,17 @@ a{
     display: none;
 }
 
-@media (min-width: 760px){
+@media (min-width: 940px){
     /* *{
         /* color: red !important; */
     /* } */
 
+
     .mylogo {
-        display: inline-block;
-        width: 14rem;
-        height: 5rem;
-        margin-left: 3rem;
-        padding-bottom: .5rem;
+        display: block;
+        width: 13rem;
+        height: 7rem; 
+        margin-left: 2rem;
     }
 
     .mylogo img{
@@ -602,6 +602,11 @@ a{
     .logo{
         display: none;
     }
+
+    .navbar i{
+        display: flex; 
+    }
+
     .navbar i{
         display: none;
     }
@@ -611,16 +616,16 @@ a{
         height: 10vh; 
         display: flex;
         flex-direction: row;
-        width: 50%;
-        margin-left: 23rem;
-        margin-top: .5rem;
+        justify-content: space-around;
+        width: auto; 
         transition: width .5s ease-out; 
-        background-color: rgb(16, 16, 53);
+        background-color: rgb(16, 16, 53); 
+        margin-top: 2rem;
+        margin-right: 3rem; 
     }
     .navlist ul{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: flex;  
+    
     }
 
 
@@ -630,6 +635,7 @@ a{
     font-weight: 500;
     text-align: center;
     cursor: pointer; 
+    margin-right: .2rem;
 }
 
 .navlist li a:hover{
@@ -637,19 +643,72 @@ a{
 }
 
 .navlist li{
-    border: none;
-    margin-right: 1rem; 
-
+    border: none; 
+    width: 6rem;
+    margin-right: .3rem;
 }
-.navlist li a{
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500; 
-    text-align: justify;
-    cursor: pointer; 
-    margin-right: 2rem;
+.navlist .closelist{
+    display: none;
 }
 
+.header {
+    padding-top: 8rem;
+    background-color: rgb(16, 16, 53);
+}
 
-    
+.header .header-img{
+    width: 100%; 
+    height: 90vh;
+    top: 80%;
+}
+
+.header .header-img::before{
+    position: absolute;
+    background-image: url(/imgs/cigom5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-color: #444;    
+    overflow: hidden;
+    animation: increase 50s linear 10ms infinite;
+    animation: all 0.2s ease-in-out;
+    z-index: -2;
+}
+
+@keyframes increase {
+    0%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+.head-inbtn {
+    display: none;
+}
+.arrow {
+    top: 80%;
+}
+
+.products h2::before{
+    left: 47%;
+}
+
+.products .products-header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.products-header button {
+    width: 7%;
+}
+
+.products-header select{
+    width: 30%;
+}
+
+ 
 }
