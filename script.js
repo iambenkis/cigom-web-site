@@ -3,7 +3,8 @@ const xmark = document.querySelector('.closelist');
 const menu = document.querySelector('.fa-bars');
 const search = document.querySelector('.searchbtn')
 const searchMenu = document.querySelector('.search')
-
+let leftChevron = document.querySelectorAll('.fa-chevron-left')
+let rightChevron = document.querySelectorAll('.fa-chevron-right')
 const closeList = () => {
     navlist.classList.remove('scroll')
 }

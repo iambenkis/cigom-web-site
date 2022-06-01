@@ -742,18 +742,46 @@ a{
 }
 
 .about-text h2::before{
-    left: 48%;
+    left: 45%;
 }
 
 .about{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
 }
 
 .about-text {
-    width: 80%;
+    width: 70%;
+    margin-left: 2rem;
+}
+
+.about-video {
+    margin: auto 2rem;
 }
  
+.faq {
+    margin: auto 5rem;
+}
+
+.faq h4{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
+.accordion { 
+    font-size: 1rem;
+    margin-left: 4rem;
+    text-align: start;
+}
+
+.panel {
+    margin-left: 4rem;
+}
  
+}
+
+.footer p{
+    color: #777 !important;
+    text-decoration: underline;
 }
